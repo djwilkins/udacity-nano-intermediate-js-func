@@ -1,4 +1,4 @@
-# Functional Javascript 
+# Functional Javascript
 
 ## Description
 
@@ -22,12 +22,12 @@ My solution to this project utilizes the following:
   * Pure functions / no side effects (1x state / 1x render functions = only exceptions)
   * Utilizes HOF (Higher Order Function) array methods: map and reduce
   * Utilizes the ImmutableJS library
-  
+
 * Backend code:
 
   * Uses Node/Express server intermedary for front end and Nasa api
   * Hides sensitive info from plublic view (in .env)
-  
+
 * Responsive design with flex box
 
   * Number of Columns of photos varies by screen size
