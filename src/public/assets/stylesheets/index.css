@@ -1,0 +1,48 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.roverSelect, .roverInfo {
+  margin-bottom: 20px;
+}
+
+#root img {
+  width: 200px;
+  flex: 100%;
+  margin: 5px;
+}
+
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  #root img {
+    flex: 50%;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 991px) {
+  #root img {
+    flex: 33%;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  #root img {
+    flex: 25%;
+  }
+}
